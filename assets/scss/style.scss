@@ -1,3 +1,5 @@
-body {
-  background-color: blanchedalmond;
-}
+@import "reboot";
+@import "variables";
+@import "components/header";
+@import "components/footer";
+@import "pages/home";
