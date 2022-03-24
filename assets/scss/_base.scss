@@ -4,8 +4,8 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  max-width: calc(100vw - 50px);
   @include mq.mq($from: desktop) {
-    width: 100%;
-    max-width: 960px;
+    max-width: min(100vw - 50px, 960px);
   }
 }

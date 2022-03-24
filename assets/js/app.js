@@ -1,6 +1,6 @@
 /* Navigation */
-const primaryNav = document.querySelector(".primary-navigation");
-const navToggle = document.querySelector(".mobile-nav-toggle");
+const primaryNav = document.querySelector(".header__primary-navigation");
+const navToggle = document.querySelector(".header__mobile-nav-toggle");
 
 navToggle.addEventListener("click", () => {
   const visibility = primaryNav.getAttribute("data-visible");
