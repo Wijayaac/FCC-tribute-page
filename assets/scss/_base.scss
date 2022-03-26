@@ -1,6 +1,11 @@
 @use "util/mq";
 
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
+  font-family: "Lato", sans-serif;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
