@@ -35,7 +35,7 @@
   &__primary-navigation {
     --gap: 2em;
 
-    position: fixed;
+    position: absolute;
     z-index: 1000;
     inset: 0 0 0 30%;
 
